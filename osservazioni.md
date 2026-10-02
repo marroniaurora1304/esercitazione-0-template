@@ -33,30 +33,29 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato:argomenti passati: ciao 12 3.5, comando eseguito: ./eco2 ciao 12 3.5, output: uguale agli argomenti
 
-Che cosa posso concludere:
+Che cosa posso concludere: tutto è andato bene, non è stato segnalato nessun errore ed il comando eco2 ha restituito 0 come previsto
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato:argomenti passati: ciao dodici 3.5, comando eseguito: ./eco2 ciao dodici 3.5, output: Il secondo argomento deve essere un intero in base 10.
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: Ciò che scrivo dopo l'eseguive viene ricevuto tutto dal codice come stringa di testa, quindi il primo valore prima dello spazio viene preso così com'è sotto forma di testo, mentre gli altri elementi vengono convertiti dalle rispettive funzioni, se possibile, nel tipo corretto. In fase di stampa bisogna semplicemente usare %s %d %f in base al tipo di riferimento.
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: con argomenti validi non ci sono problemi, mentre con l'argomento dodici mi aspetto il messaggio di errore predefinito dalla funzione leggi intero in questo caso.
 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: in eco.txt per agomenti validi risulta la stringa di testo inserita in input, mentre per non validi risulta vuoto. Nel terminale con arg. validi nulla perchè ridirezionato la txt, non validi stampa mess. di errore impostato nella funzione di lettura. codici di uscita: 0 per arg validi, 2 altrimenti.
 
-Come un controllo automatico può riconoscere un errore:
+Come un controllo automatico può riconoscere un errore: utilizzzando i valori di return 0,2 (pass, fail)
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
-
+Quando serve ricompilare e quando basta cambiare gli argomenti: serve ricompilare ogni volta che viene cambiato il codice sorgente, mentre cambiare gli argomenti è solo per quando si vogliono testare input diversi
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: utilizzando git log
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: su github da un altro dispositivo
