@@ -1,6 +1,6 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo: C11 C12
+Gruppo: C6
 
 Componenti (nome, cognome e username GitHub di entrambi): Filippo Milozzi fmiloz, Aurora Marroni marroniaurora1304
 
