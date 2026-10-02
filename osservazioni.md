@@ -25,11 +25,11 @@ Esito dopo la modifica e spiegazione della correzione: vedi sopra, ho inserito u
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: abbiamo fatto due commit, un primo dove abbiamo incluso solo il file osservazioni.md precedentemente modificato ed un secondo per il file sorgente hello.c. Perché sono gli unici su cui abbiamo lavorato apportando delle modifiche
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: in testa alla pagina repo abbimao verificato la presenza dei due commit, aprendoli e controllandone il contenuto
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: prima del "git pull" il file locale non presentava la modifica fatta da remoto, mentre dopo il pull sul terminale è uscito un resoconto delle modifiche effettuate sul file. Non serve un nuovo clone perché voglio solo scaricare le modifiche fatte da remoto su GitHub.
 
 ## Step 2 — Eco: prima prova
 
