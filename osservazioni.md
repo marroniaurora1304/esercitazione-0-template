@@ -1,27 +1,27 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: C11 C12
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Filippo Milozzi fmiloz, Aurora Marroni marroniaurora1304
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/marroniaurora1304/esercitazione-0-template
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: entrambi
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: make (esegue compilazione con gcc allo standard C17)
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato: ./hello, nullo pre-modifica, stampa stringa: "Hello, computational physics!" post modifica, compilazione avvenuta con successo e output coerente con la richiesta
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: il sorgente è il file modificabile dove inserisco le istruzioni per il computer, l'eseguibile è un file binario che effettivamente compie i comandi del codice
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: vedi sopra
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: vedi sopra, ho inserito un printf nel codice (prima il codice era vuoto con solo il todo) 
 
 ## Step 1 — Git
 
